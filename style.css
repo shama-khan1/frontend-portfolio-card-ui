@@ -1,0 +1,117 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #193db2;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    
+   
+}
+.container{
+   width: 300px;
+   height: 400px;
+    background-color: white;
+    border-radius: 15px;
+      transition: 0.6s;
+}
+.container:hover{
+    transform: translateY(-8px) scale(1.01);
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+}
+.detail{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.pic{
+    margin-top: 5px;
+}
+.pic-img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: goldenrod 3px solid;
+    
+   
+}
+.name{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.para{
+    color: rgb(70, 67, 67);
+    text-align: center;
+    margin-top: 15px;
+    font-size: 28px;
+    font-weight: 600;
+}
+.paraa{
+    font-size: 12px;
+    font-weight: 600;
+    padding-top: 5px;
+    color: rgb(83, 80, 80);;
+}
+.desc{
+    color: rgb(95, 90, 90);;
+    text-align: center;
+    margin-top: 15px;
+    font-size: 14px;
+    margin-top: 20px;
+    word-spacing: 1px;
+}
+.info{
+    display: flex;
+    gap: 40px;
+    color: rgb(95, 90, 90);
+    margin-top: 20px;
+}
+.project{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}   
+.yr{
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.client{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+}
+.blue-num{
+    color: #193db2;
+    font-weight: 700;
+    font-size: 20px;
+}
+.btn{
+    padding: 10px 20px;
+    background:linear-gradient(90deg, #594cde, #290d97);
+    color: white;
+    font-weight: 600;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;  
+    margin-top: 20px;  
+    transition: 0.4s;
+}
+.btn:hover{
+    background:linear-gradient(90deg, #290d97, #594cde);
+    transform: translateY(-3px) scale(1.02);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+}   
